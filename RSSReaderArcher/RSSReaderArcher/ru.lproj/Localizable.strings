@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  RSSReaderArcher
+
+  Created by Artem Karpovych on 11/4/19.
+  Copyright © 2019 Artem Karpovych. All rights reserved.
+*/
+
+"OFFLINE" = "Нет соединения с интернетом";
+"THIS_DEVICE_IS_OFFLINE" = "Телефон сейчас в оффлайн режиме. Вы не сможете подгрузить новые нвоости, но вы увидите закешированные.";
+"CANCEL" = "Отмена";
+"GENERAL_INFO" = "Общая информация";
+"DESCRIPTION" = "Описание:";
+"TITLE" = "Заголовок:";
+"DATE" = "Дата:";
+"OPEN_IN_WEB" = "Открыть в браузере";
+"NO_NEWS" = "Что-то пошло не так";
+"NO_NEW_MESSAGE" = "Ошибка при загрузке новых новостей. Так же нет кешированных чтобы показать. Попробуйте позже.";

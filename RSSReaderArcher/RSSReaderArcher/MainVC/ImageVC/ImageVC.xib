@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageVC" customModule="RSSReaderArcher" customModuleProvider="target">
+            <connections>
+                <outlet property="pinchImage" destination="yB3-Mn-9H2" id="gtj-Nf-i6Y"/>
+                <outlet property="scaleImage" destination="Hfv-9u-ch1" id="umj-1m-nOS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yB3-Mn-9H2">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Hfv-9u-ch1" appends="YES" id="0w3-0H-aiW"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yB3-Mn-9H2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Bm6-ci-QTN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="yB3-Mn-9H2" secondAttribute="bottom" id="Hc8-hf-7TT"/>
+                <constraint firstItem="yB3-Mn-9H2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="dO8-Gd-ltF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yB3-Mn-9H2" secondAttribute="trailing" id="kai-ol-QYC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="127"/>
+        </view>
+        <pinchGestureRecognizer id="Hfv-9u-ch1">
+            <connections>
+                <action selector="scaleImageAction:" destination="-1" id="lih-gZ-hsH"/>
+            </connections>
+        </pinchGestureRecognizer>
+    </objects>
+</document>

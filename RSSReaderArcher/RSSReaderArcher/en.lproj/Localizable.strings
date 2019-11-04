@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  RSSReaderArcher
+
+  Created by Artem Karpovych on 11/4/19.
+  Copyright © 2019 Artem Karpovych. All rights reserved.
+*/
+
+"OFFLINE" = "No internet connection";
+"THIS_DEVICE_IS_OFFLINE" = "Device is offline. You can't download new feeds, but cashed will be presented.";
+"CANCEL" = "Cancel";
+"GENERAL_INFO" = "General Info";
+"DESCRIPTION" = "Description:";
+"TITLE" = "Title:";
+"DATE" = "Date:";
+"OPEN_IN_WEB" = "Open in web";
+"NO_NEWS" = "Something goes wrong here";
+"NO_NEW_MESSAGE" = "No cached news and error during fetching new. Try again later.";
+
